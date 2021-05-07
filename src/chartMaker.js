@@ -18,26 +18,22 @@ module.exports = (newjson, style, color) => {
       [125 + 250*62.5/100, 250*37.5/100],
       ],
       [
-        [60, 25],
-        [100, 25],
-        [140, 25],
-        [10, 25],
-        [80, 50],
-        [120, 50],
-        [160, 50],
-        [120, 75],
-        [25, 25],
+        [15, 0],
+        [250/2, 85],
+        [250/2, 20],
+        [250/3, 20],
+        [250*4/6, 20],
+        [250/6, 20],
+        [250*5/6, 20],
       ],
       [
-        [10, 70],
-        [10, 110],
-        [10, 150],
-        [10, 190],
-        [50, 90],
-        [50, 130],
-        [50, 170],
-        [50, 130],
-        [10, 40],
+        [125, 125],
+        [125 - 125*75/100*1.1, 125 - 250/6],        // House 3
+        [125 - 125*75/100*1.1, 125 + 250/6],        // first element is the origin
+        [125 - 125*50/100*1.1, 125 - 250/6],          // rest elements are cordinates of elements from 4 to 9
+        [125 - 125*50/100*1.1, 125 + 250/6], 
+        [125 - 125*75/100*1.1, 125 + 250/3], 
+        [125 - 125*75/100*1.1, 125 - 250/3], 
       ],
       [
         [0, 250], 
@@ -50,26 +46,22 @@ module.exports = (newjson, style, color) => {
         ],
 
       [
-        [10, 320],
-        [10, 360],
-        [10, 400],
-        [10, 440],
-        [50, 350],
-        [50, 390],
-        [50, 430],
-        [80, 380],
-        [10, 285],
+        [125, 375],
+        [125 - 125*75/100*1.1, 375 - 250/6],        // House 5
+        [125 - 125*75/100*1.1, 375 + 250/6],        // first element is the origin
+        [125 - 125*50/100*1.1, 375 - 250/6],          // rest elements are cordinates of elements from 4 to 9
+        [125 - 125*50/100*1.1, 375 + 250/6], 
+        [125 - 125*75/100*1.1, 375 + 250/3], 
+        [125 - 125*75/100*1.1, 375 - 250/3],
       ],
       [
-        [60, 485],
-        [100, 485],
-        [140, 485],
-        [180, 485],
-        [80, 460],
-        [120, 460],
-        [160, 460],
-        [120, 435],
-        [30, 485],
+        [15, 500],
+        [250/2, 500 - 85],
+        [250/2, 500 -20],
+        [250/3, 500 -20],
+        [250*4/6, 500 -20],
+        [250/6, 500 -20],
+        [250*5/6, 500 -20],
       ],
       [
         [125, 375], 
@@ -81,31 +73,26 @@ module.exports = (newjson, style, color) => {
         [125 + 250*62.5/100, 250 + 250*37.5/100],
         ],
       [
-        [470, 320],
-        [470, 360],
-        [470, 400],
-        [470, 440],
-        [440, 350],
-        [440, 390],
-        [440, 430],
-        [410, 380],
-        [470, 290],
-      ],
-
-      [
-        [300, 485],
-        [340, 485],
-        [380, 485],
-        [420, 485],
-        [335, 460],
-        [375, 460],
-        [415, 460],
-        [375, 435],
-        [275, 490],
+        [265, 500],
+        [250 + 250/2, 500 - 85],
+        [250 + 250/2, 500 -20],
+        [250 + 250/3, 500 -20],
+        [250 + 250*4/6, 500 -20],
+        [250 + 250/6, 500 -20],
+        [250 + 250*5/6, 500 -20],
+    ],
+    [
+        [375, 375],
+        [375 + 125*75/100*1.1, 375 - 250/6],        // House 9
+        [375 + 125*75/100*1.1, 375 + 250/6],        // first element is the origin
+        [375 + 125*50/100*1.1, 375 - 250/6],          // rest elements are cordinates of elements from 4 to 9
+        [375 + 125*50/100*1.1, 375 + 250/6], 
+        [375 + 125*75/100*1.1, 375 + 250/3], 
+        [375 + 125*75/100*1.1, 375 - 250/3],
       ],
       [
         [250, 250], 
-        [250 + 250*50/100, 125 + 250*25/100],         // House 9
+        [250 + 250*50/100, 125 + 250*25/100],         // House 10
         [250 + 250*50/100, 125 + 250*75/100],         // first element is the origin
         [250 + 250*37.5/100,125 + 250*62.5/100],      // rest elements are cordinates of elements from 4 to 9
         [250 + 250*62.5/100,125 + 250*62.5/100],
@@ -113,26 +100,22 @@ module.exports = (newjson, style, color) => {
         [250 + 250*62.5/100,125 + 250*37.5/100],
         ],
       [
-        [470, 70],
-        [470, 110],
-        [470, 150],
-        [470, 190],
-        [440, 90],
-        [440, 130],
-        [440, 170],
-        [410, 130],
-        [470, 40],
+        [375, 125],
+        [375 + 125*75/100*1.1, 125 - 250/6],        // House 11
+        [375 + 125*75/100*1.1, 125 + 250/6],        // first element is the origin
+        [375 + 125*50/100*1.1, 125 - 250/6],          // rest elements are cordinates of elements from 4 to 9
+        [375 + 125*50/100*1.1, 125 + 250/6], 
+        [375 + 125*75/100*1.1, 125 + 250/3], 
+        [375 + 125*75/100*1.1, 125 - 250/3],
       ],
       [
-        [300, 25],
-        [340, 25],
-        [380, 25],
-        [420, 25],
-        [335, 50],
-        [375, 50],
-        [415, 50],
-        [375, 75],
-        [275, 20],
+        [265, 0],
+        [250 + 250/2, 80],
+        [250 + 250/2, 20],
+        [250 + 250/3, 20],
+        [250 + 250*4/6, 20],
+        [250 + 250/6, 20],
+        [250 + 250*5/6, 20],
       ],
     ],
     rasiAddresses = [
@@ -301,40 +284,47 @@ module.exports = (newjson, style, color) => {
   console.log(house, "house");
   house.forEach((element, ind) => {
     // there are 5 types of houses: full square(1, 4, 7, 10), upper triangle(6, 9), lower triangle(2, 12), right triangle(3, 5), left triangle(11, 8)
-    //everyone follows different or opposite pattern
-    // element is a list of elements in each house
-    //console.log(element, ind, "element");
-
-    // for whole square house
-    if (ind == 0 || ind == 3 || ind == 6 || ind == 9) {
-        element.forEach((houseelem, Hindex) => {
-            // for dynamic positions
-            if (Hindex < 3) {
-            
-                svgStringHouse =
-                    svgStringHouse +
-                    `<text x="${houseAddresses[ind][0][0] + (250 / (element.length < 4 ? element.length + 1 : 4)) * (Hindex + 1 < 4 ? Hindex + 1 : 2)
-                    - 10}" y= "${houseAddresses[ind][0][1] + 5
-                    }" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
-            }
-            else {   // for fixed positions
-                svgStringHouse =
-                    svgStringHouse +
-                    `<text x="${houseAddresses[ind][Hindex - 2][0] - 10}" y= "${houseAddresses[ind][Hindex - 2][1] + 5}" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
-            }
-        });
-        
+    
+    
+    element.forEach((houseelem, Hindex) => {
+      // for dynamic positions
+      if (Hindex < 3) {
+        if (ind == 0 || ind == 3 || ind == 6 || ind == 9) {// for whole square house
+          svgStringHouse =
+            svgStringHouse +
+            `<text x="${houseAddresses[ind][0][0] + (250 / (element.length < 4 ? element.length + 1 : 4)) * (Hindex + 1 < 4 ? Hindex + 1 : 2)
+            - 10}" y= "${houseAddresses[ind][0][1] + 5
+            }" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
+        }
           
+        else if (ind == 2 || ind == 4 || ind == 8 || ind == 10) { //for left and right triangles
+          svgStringHouse =
+            svgStringHouse +
+            `<text x="${houseAddresses[ind][0][0] + (125 / (element.length < 4 ? element.length + 1 : 4)) * (Hindex + 1 < 4 ? Hindex + 1 : 2) * (ind < 5 ? -1.1 : 1.1)
+            - 10}" y= "${houseAddresses[ind][0][1] + 5
+            }" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
+        }
+        else { //for top and bottom triangles
+          svgStringHouse =
+            svgStringHouse +
+            `<text x="${houseAddresses[ind][0][0] + (220 / (element.length < 4 ? element.length + 1 : 4)) * (Hindex + 1 < 4 ? Hindex + 1 : 2)
+            - 10}" y= "${houseAddresses[ind][0][1] + 125 * (ind == 1 || ind == 11 ? 1 : -0.75) / 2.2 - 5}" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
+        
+        }
       }
-     else {
-      element.forEach((houseelem, Hindex) => {
-        // houseelem = As / mo / ju etc
+// for fixed positions
+      else {   
         svgStringHouse =
           svgStringHouse +
-          `<text x="${houseAddresses[ind][Hindex][0]}" y= "${houseAddresses[ind][Hindex][1]}" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
-      });
-    }
+          `<text x="${houseAddresses[ind][Hindex - 2][0] - 10}" y= "${houseAddresses[ind][Hindex - 2][1] + 5}" style = "font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display: flex;justify-content: center;align-items: center;color:rgb(83, 83, 83);font-weight:bold ">${houseelem}</text>`;
+      }
+    });
   });
+          
+    
+
+
+
   rasi.forEach((element, ind) => {
     element.forEach((houseelem, Hindex) => {
       let isBold = false;
