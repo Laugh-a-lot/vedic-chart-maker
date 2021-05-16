@@ -261,7 +261,7 @@ var astrological_sign = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", 
       if (houseelem === "As") {
         isBold = true;
         svgStringRasi =
-        svgStringRasi + ` <line x1="${rasiAddresses[ind][0] + 25}" y1="${rasiAddresses[ind][1] + 3}" x2="${rasiAddresses[ind][0]}" y2="${rasiAddresses[ind][1] + 25}" style="stroke:${themeColor};stroke-width:3" />`
+        svgStringRasi + ` <line x1="${rasiAddresses[ind][0] + 25}" y1="${rasiAddresses[ind][1]}" x2="${rasiAddresses[ind][0] + 3}" y2="${rasiAddresses[ind][1] + 25}" style="stroke:${themeColor};stroke-width:3" />`
       };
       if (Hindex < 5) {
         svgStringRasi =
